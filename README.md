@@ -35,3 +35,8 @@ Aqui esta a imagem dos Graficos Gerados pelo gemini:
 
 <img src="download.png" alt="I" style="width: 500px;">
 <img src="download (1).png" alt="I" style="width: 500px;">
+
+
+Tambem fiz a Montagem Fisica:
+<img src="IMG_2264.jpg" alt="I" style="width: 500px;">
+
