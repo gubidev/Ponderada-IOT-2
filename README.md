@@ -1,6 +1,8 @@
 # Ponderada IOT 2
 Imagem do circuito RC feito no TinkerCad:
 
+Link TikerCad: https://www.tinkercad.com/things/42l4nTNNsUI-exquisite-habbi/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=Q29ScbJVa0s2eB8Ybw3r6Cu5ic7BNozLferAuc--fx4 
+
 <img src="Exquisite Habbi (1).png" alt="I" style="width: 500px;">
 
 Esse circuito mostra como um capacitor carrega e
