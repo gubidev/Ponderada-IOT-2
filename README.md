@@ -1,7 +1,12 @@
 # Ponderada IOT 2
-Imagem do circuito RC feito no TinkerCad
+Imagem do circuito RC feito no TinkerCad:
 
 <img src="Exquisite Habbi (1).png" alt="I" style="width: 500px;">
+
+Esse circuito mostra como um capacitor carrega e
+descarrega ao longo do tempo, o Arduino está lendo
+essa variação de tensão no capacitor (via uma
+entrada analógica).
 
 Codigo do circuito RC:
 
