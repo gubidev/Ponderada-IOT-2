@@ -2,20 +2,27 @@
 
 
 ``` 
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(10, OUTPUT);
+int pinoNoRC=0;
+int valorLido = 0;
+float tensaoCapacitor = 0, tensaoResistor;
+unsigned long time;
+void setup(){
+Serial.begin(9600);
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(10, HIGH);  
-  delay(500);                      
-  digitalWrite(10, LOW);   
-  delay(500);                      
+time=millis();
+valorLido=analogRead(pinoNoRC);
+tensaoResistor=(valorLido*5.0/1023); // 5.0V / 1023 degraus = 0.0048876
+tensaoCapacitor = abs(5.0-tensaoResistor);
+Serial.print(time); //imprime o conteúdo de time no MONITOR SERIAL
+Serial.print(" ");
+Serial.print(tensaoResistor);
+Serial.print(" ");
+Serial.println(tensaoCapacitor);
+delay(400);
 }
 ```
-Aqui esta a imagem dos Graficos Gerados pelo gemini
+Aqui esta a imagem dos Graficos Gerados pelo gemini:
 
-<img src="Screenshot 2025-10-16 085349.png" alt="Imagem do codigo" style="width: 500px;">
-<img src="IMG_2198.jpg" alt="Imagem da parte 1" style="width: 500px;">
+<img src="download.png" alt="I" style="width: 500px;">
+<img src="download (1).png" alt="I" style="width: 500px;">
