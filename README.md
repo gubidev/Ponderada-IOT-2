@@ -1,7 +1,9 @@
 # Ponderada IOT 2
-Imagem do circuito feito no TinkerCad
+Imagem do circuito RC feito no TinkerCad
 
 <img src="Exquisite Habbi.png" alt="I" style="width: 500px;">
+
+Codigo do circuito RC:
 
 ``` 
 int pinoNoRC=0;
