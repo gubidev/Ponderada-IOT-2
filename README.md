@@ -1,5 +1,7 @@
 # Ponderada IOT 2
+Imagem do circuito feito no TinkerCad
 
+<img src="Exquisite Habbi.png" alt="I" style="width: 500px;">
 
 ``` 
 int pinoNoRC=0;
